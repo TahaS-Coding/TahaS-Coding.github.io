@@ -95,7 +95,7 @@ body {
 .web-button-left:hover, .web-button-right:hover { background-color:#437aa1; }
 
 .web-fill-image { display:block; position:absolute; object-fit:cover; width:90.5%; height:63.9%; top:5.25%; left:50%; transform:translateX(-50%); }
-.carousel-transition { background-color:black; position:absolute; width:76.7%; height:50.4%; top:17.1%; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.15s ease-in-out; }
+.carousel-transition { background-color:black; position:absolute; width:90.5%; height:63.9%; top:5.25%; left:50%; transform:translateX(-50%); opacity:0; transition:opacity 0.15s ease-in-out; }
 
 /* footer */
 footer { background-color:#42789E; display:flex; align-items:center; overflow:hidden; }
