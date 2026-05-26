@@ -86,9 +86,9 @@ body {
 .computer-graphic-container { width:650px; align-content:center;}
 .computer-graphic-container figure { position: relative; }
 .computer-graphic-container img:first-of-type { width:100%; display:block; }
-.computer-graphic-container .button { position:absolute; top:70.5%; left:50%; transform:translateX(-50%); display:block; width:25%; font-size:1.25vw; font-weight:500; border-radius:0.75vh; text-align:center; padding:0.1% 0; }
+.computer-graphic-container .button { position:absolute; top:71%; left:50%; transform:translateX(-50%); display:block; width:25%; font-size:1.25vw; font-weight:500; border-radius:0.75vh; text-align:center; padding:0.1% 0; }
 
-.web-button-left, .web-button-right { border:none; background-color:#5091BF; position:absolute; top:70.5%; display:block; width:10%; font-size:1.25vw; font-weight:500; border-radius:0.75vh; text-align:center; padding:0.1% 0; }
+.web-button-left, .web-button-right { border:none; background-color:#5091BF; position:absolute; top:71%; display:block; width:10%; font-size:1.25vw; font-weight:500; border-radius:0.75vh; text-align:center; padding:0.1% 0; }
 .web-button-left { left:25%; background-color:#437aa1; }
 .web-button-right { left:65%; }
 .web-button-left:hover, .web-button-right:hover { background-color:#437aa1; }
@@ -103,6 +103,30 @@ footer { background-color:#42789E; display:flex; align-items:center; overflow:hi
 .footer-links>a { height:75px; width:75px; }
 .footer-links>a>img { height:75px; width:75px; }
 .footer-links>a:hover, .footer-links>a:active { transform:scale(1.1); }
+
+/* Desktop buttons */
+@media only screen and (min-width: 1501px) {
+    .computer-graphic-container .button {
+        width: 140px; 
+        border-radius: 10px;
+        font-size: 24px;
+    }
+    .web-button-left, .web-button-right {
+        width: 65px;
+        border-radius: 10px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1851px) {
+    .computer-graphic-container .button {
+        width: 165px;
+        font-size: 26px;
+    }
+    .web-button-left, .web-button-right {
+        font-size: 26px;
+    }
+}
 
 /* Mobile */
 @media only screen and (max-width:480px) {
